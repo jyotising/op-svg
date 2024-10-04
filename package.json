@@ -1,0 +1,37 @@
+{
+  "name": "opsvg",
+  "version": "1.0.0",
+  "description": "free open source icon library",
+  "main": "index.js",
+  "scripts": {
+    "build-icons": "svgr --icon --out-dir src/components/icons src/icons",
+    "generate-index": "node generate-index.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotising/op-svg.git"
+  },
+  "keywords": [
+    "svg",
+    "opsvg",
+    "icon",
+    "open-source",
+    "icon",
+    "library",
+    "free",
+    "icon",
+    "vector",
+    "vector",
+    "icon"
+  ],
+  "author": "Jyoti Sing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyotising/op-svg/issues"
+  },
+  "homepage": "https://github.com/jyotising/op-svg#readme",
+  "devDependencies": {
+    "@svgr/cli": "^8.1.0"
+  }
+}

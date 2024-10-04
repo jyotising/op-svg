@@ -1,0 +1,28 @@
+import * as React from "react";
+const SvgArithmetic = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <g clipPath="url(#arithmetic_svg__a)">
+      <path fill="#fff" fillOpacity={0.01} d="M24 0H0v24h24z" />
+      <path
+        stroke="#333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M14 16.25h7M14 20.75h7M3 6.5h8M7 2.5v8M21 2.5l-18 18"
+      />
+    </g>
+    <defs>
+      <clipPath id="arithmetic_svg__a">
+        <path fill="#fff" d="M0 0h24v24H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgArithmetic;

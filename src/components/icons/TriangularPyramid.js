@@ -1,0 +1,28 @@
+import * as React from "react";
+const SvgTriangularPyramid = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <g clipPath="url(#triangular-pyramid_svg__a)">
+      <path fill="#fff" fillOpacity={0.01} d="M24 0H0v24h24z" />
+      <path
+        stroke="#333"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="m12 22 9-4.5L12 2 3 17.5zM12 22V2"
+      />
+    </g>
+    <defs>
+      <clipPath id="triangular-pyramid_svg__a">
+        <path fill="#fff" d="M0 0h24v24H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgTriangularPyramid;
