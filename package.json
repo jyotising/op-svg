@@ -1,5 +1,5 @@
 {
-  "name": "@jyotising/op-svg",
+  "name": "opsvg",
   "version": "1.0.0",
   "description": "free open source icon library",
   "main": "index.js",
