@@ -24,6 +24,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Github files
+.github
+
 # Testing files
 *.test.js
 *.spec.js
