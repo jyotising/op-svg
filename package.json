@@ -1,5 +1,5 @@
 {
-  "name": "opsvg",
+  "name": "@jyotising/op-svg",
   "version": "1.0.0",
   "description": "free open source icon library",
   "main": "index.js",
@@ -11,6 +11,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jyotising/op-svg.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "svg",
